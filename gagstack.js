@@ -64,7 +64,8 @@ const importantGears = [
 ];
 const importantEvents = [
   "Zenflare", "Corrupt Radar", "Zen Seed Pack", "Sakura Bush",
-  "Zen Sand", "Tranquil Radar", "Raiju", "Koi", "Zen Egg"
+  "Zen Sand", "Tranquil Radar", "Raiju", "Koi", "Zen Egg",
+  "Pet Shard Tranquil", "Pet Shard Corrupted"
 ];
 let notifiedAvailable = {};
 const emojis = {
@@ -80,7 +81,10 @@ const emojis = {
   "Zenflare": "💠", "Corrupt Radar": "☢️", "Zen Seed Pack": "🎁", "Sakura Bush": "🌸",
   "Zen Sand": "🏖️", "Tranquil Radar": "🌿",
   "Stone Lantern": "🏮", "Water Trough": "🚰", "Mini TV": "📺", "Small Stone Table": "🪑", "Tiki Bar": "🍹",
-  "Medium Wood Flooring": "🪵", "Log": "🪵", "Statue Crate": "📦", "Beach Crate": "🏝️"
+  "Medium Wood Flooring": "🪵", "Log": "🪵", "Statue Crate": "📦", "Beach Crate": "🏝️",
+  // Dog icons for Pet Shards
+  "Pet Shard Tranquil": "🐶🟢",     // Dog with tranquil indicator
+  "Pet Shard Corrupted": "🐶🟥"     // Dog with corrupted indicator
 };
 
 function sectionLabel(section) {
